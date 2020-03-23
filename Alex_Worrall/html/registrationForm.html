@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Alex Worrall Registration Form</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul id="nav">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="registrationForm.html">Registration</a></li>
+                <li><a href="">About</a></li>
+              </ul>
+		</nav>
+	</header>
+	<main id="body">
+		<form>
+            <h2>Please enter your details to Register</h2>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required class="longInput"><br>
+            <label for="address">Address:</label><br>
+            <input type="text" id="address" name="address" required class="longInput"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email" required class="longInput"><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required class="longInput"><br>
+            <label for="phone">Telephone Number:</label><br>
+            <input type="number" id="phone" name="phone" required class="longInput" pattern="[0-9]*" inputmode="numeric"><br>
+            
+            <!-- Insert birthdate chooser here-->
+            <label for="month">Birthday:</label><br>
+            <select id="month" name="month" required>
+                <option value="">Birth Month</option>
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+            <input type="text" id="day" name="day" placeholder="day (dd)" maxlength="2" required class="shortInput">
+            <input type="text" id="year" name="year" placeholder="year (yyyy)" maxlength="4" required class="shortInput"><br>
+            
+            <div id="buttonWrapper">
+                <input type="submit" value="Submit">
+            </div>
+          </form>
+	</main>
+	<footer id="footer">
+	</footer>
+</body>
+</html>
