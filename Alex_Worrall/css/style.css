@@ -120,6 +120,10 @@ input[type=submit]{
     text-align: center;
 }
 
+input[type=submit]:hover {
+    background-color: rgb(76, 68, 185);
+}
+
   /* Some of the styling methods used were taken from the 
   w3schools site: https://www.w3schools.com/css/css_form.asp */
 
