@@ -11,8 +11,8 @@ https://stackoverflow.com/questions/982054/how-to-center-an-element-in-the-middl
  */
 
 section{
-    width: 350px;
-    height: 80px;
+    width: 400px;
+    height: 200px;
     margin: 0 auto;
     background-color:#222629;
     color: rgba(206, 204, 204, 0.993);
@@ -24,6 +24,7 @@ section{
     top:  50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    vertical-align: middle;
 }
 
 /* Help with the CSS navigation bar was taken from: 
@@ -122,6 +123,12 @@ input[type=submit]{
 
 input[type=submit]:hover {
     background-color: rgb(76, 68, 185);
+}
+
+#chipper{
+    height: 200px;
+    width: 175px;
+    float: left;
 }
 
   /* Some of the styling methods used were taken from the 
